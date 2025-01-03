@@ -18,3 +18,4 @@ else:
     tag, id, content = result.groups()
 
     print(tag, id, content)
+    print(result.group())
